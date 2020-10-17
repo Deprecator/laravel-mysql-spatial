@@ -1,7 +1,7 @@
 <?php
 
-use Grimzy\LaravelMysqlSpatial\MysqlConnection;
-use Grimzy\LaravelMysqlSpatial\Schema\Builder;
+use Deprecator\LaravelMysqlSpatial\MysqlConnection;
+use Deprecator\LaravelMysqlSpatial\Schema\Builder;
 use PHPUnit\Framework\TestCase;
 use Stubs\PDOStub;
 

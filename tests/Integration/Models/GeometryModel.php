@@ -1,15 +1,15 @@
 <?php
 
-use Grimzy\LaravelMysqlSpatial\Eloquent\SpatialTrait;
+use Deprecator\LaravelMysqlSpatial\Eloquent\SpatialTrait;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class GeometryModel.
  *
  * @property int                                          id
- * @property \Grimzy\LaravelMysqlSpatial\Types\Point      location
- * @property \Grimzy\LaravelMysqlSpatial\Types\LineString line
- * @property \Grimzy\LaravelMysqlSpatial\Types\LineString shape
+ * @property \Deprecator\LaravelMysqlSpatial\Types\Point      location
+ * @property \Deprecator\LaravelMysqlSpatial\Types\LineString line
+ * @property \Deprecator\LaravelMysqlSpatial\Types\LineString shape
  */
 class GeometryModel extends Model
 {

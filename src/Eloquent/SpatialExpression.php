@@ -1,6 +1,6 @@
 <?php
 
-namespace Grimzy\LaravelMysqlSpatial\Eloquent;
+namespace Deprecator\LaravelMysqlSpatial\Eloquent;
 
 use Illuminate\Database\Query\Expression;
 

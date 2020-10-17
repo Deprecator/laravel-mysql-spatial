@@ -1,8 +1,8 @@
 <?php
 
-use Grimzy\LaravelMysqlSpatial\Types\LineString;
-use Grimzy\LaravelMysqlSpatial\Types\Point;
-use Grimzy\LaravelMysqlSpatial\Types\Polygon;
+use Deprecator\LaravelMysqlSpatial\Types\LineString;
+use Deprecator\LaravelMysqlSpatial\Types\Point;
+use Deprecator\LaravelMysqlSpatial\Types\Polygon;
 
 class PolygonTest extends BaseTestCase
 {
@@ -57,7 +57,7 @@ class PolygonTest extends BaseTestCase
     public function testInvalidGeoJsonException()
     {
         $this->assertException(
-            \Grimzy\LaravelMysqlSpatial\Exceptions\InvalidGeoJsonException::class,
+            \Deprecator\LaravelMysqlSpatial\Exceptions\InvalidGeoJsonException::class,
             'Expected GeoJson\Geometry\Polygon, got GeoJson\Geometry\Point'
         );
         Polygon::fromJson('{"type":"Point","coordinates":[3.4,1.2]}');

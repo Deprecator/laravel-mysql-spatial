@@ -3,14 +3,14 @@
 namespace Schema;
 
 use BaseTestCase;
-use Grimzy\LaravelMysqlSpatial\Schema\Blueprint;
+use Deprecator\LaravelMysqlSpatial\Schema\Blueprint;
 use Illuminate\Database\Schema\ColumnDefinition;
 use Mockery;
 
 class BlueprintTest extends BaseTestCase
 {
     /**
-     * @var \Grimzy\LaravelMysqlSpatial\Schema\Blueprint
+     * @var \Deprecator\LaravelMysqlSpatial\Schema\Blueprint
      */
     protected $blueprint;
 
