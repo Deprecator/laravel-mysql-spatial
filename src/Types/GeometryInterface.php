@@ -1,6 +1,6 @@
 <?php
 
-namespace Grimzy\LaravelMysqlSpatial\Types;
+namespace Deprecator\LaravelMysqlSpatial\Types;
 
 interface GeometryInterface
 {

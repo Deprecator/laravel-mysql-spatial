@@ -1,10 +1,10 @@
 <?php
 
-namespace Grimzy\LaravelMysqlSpatial\Types;
+namespace Deprecator\LaravelMysqlSpatial\Types;
 
 use GeoIO\WKB\Parser\Parser;
 use GeoJson\GeoJson;
-use Grimzy\LaravelMysqlSpatial\Exceptions\UnknownWKTTypeException;
+use Deprecator\LaravelMysqlSpatial\Exceptions\UnknownWKTTypeException;
 use Illuminate\Contracts\Support\Jsonable;
 
 abstract class Geometry implements GeometryInterface, Jsonable, \JsonSerializable
@@ -108,7 +108,7 @@ abstract class Geometry implements GeometryInterface, Jsonable, \JsonSerializabl
             $geoJson = $geoJson->getGeometry();
         }
 
-        $type = '\Grimzy\LaravelMysqlSpatial\Types\\'.$geoJson->getType();
+        $type = '\Deprecator\LaravelMysqlSpatial\Types\\'.$geoJson->getType();
 
         return $type::fromJson($geoJson);
     }

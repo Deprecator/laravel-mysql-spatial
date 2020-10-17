@@ -46,7 +46,7 @@
         },
         "laravel": {
             "providers": [
-                "Grimzy\\LaravelMysqlSpatial\\SpatialServiceProvider"
+                "Deprecator\\LaravelMysqlSpatial\\SpatialServiceProvider"
             ]
         }
     }
